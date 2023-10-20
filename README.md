@@ -21,7 +21,7 @@ pip install llm-stack-kit
 ## Usage
 
 ```python
-from llmkit import LLMKit
+from llm-stack-kit import LLMKit
 
 llm_kit = LLMKit()
 
