@@ -45,7 +45,7 @@ Comprehensive documentation will be made available soon.
 
 ## Contributing
 
-We welcome contributions! Please read our [contribution guidelines](CONTRIBUTING.md) to get started.
+We welcome contributions! Our contributions guideline will be added soon.
 
 ## License
 
