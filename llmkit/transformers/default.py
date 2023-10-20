@@ -1,9 +1,8 @@
 import re
+from typing import List
+
 from llmkit.models import Message, RoleEnum
 from llmkit.transformers.base import GeneratedTextTransformer, PromptTransformer
-
-
-from typing import List
 
 
 class DefaultPromptTransformer(PromptTransformer[str]):
@@ -25,7 +24,6 @@ class DefaultGeneratedTextTransformer(GeneratedTextTransformer[str]):
         Default Response returns the generated text as it comes from the LLM
         """
         return generated_text
-
 
 
 class EnumeratedListTransformer(GeneratedTextTransformer[List[str]]):
