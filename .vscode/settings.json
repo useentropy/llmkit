@@ -1,0 +1,16 @@
+{
+    "[python]": {
+      "diffEditor.ignoreTrimWhitespace": false,
+      "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always",
+      "source.organizeImports": "explicit",
+    },
+    "black-formatter.args": [
+      "--line-length=80",
+      "--experimental-string-processing"
+    ]
+  }
