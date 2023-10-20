@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "llm-stack-kit"
-version = "0.1.4"
+version = "0.1.5"
 description = "Generate Data from LLM easily using LLMKit"
 authors = ["Tosin Amuda <tosinamuda@gmail.com>"]
 readme = "README.md"
@@ -8,7 +8,7 @@ packages = [{include = "llmkit"}]
 repository = "https://github.com/useentropy/llmkit"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.8.1"
 pydantic = "^2.4.2"
 openai = "^0.28.1"
 python-dotenv = "^1.0.0"
