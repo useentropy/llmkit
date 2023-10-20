@@ -1,9 +1,7 @@
 from examples.models import CareerAdvisor
-from examples.transfomers import (
-    GeneratedIndustryTransformer,
-    IndustryPromptTransformer,
-)
+from examples.transfomers import IndustryPromptTransformer
 from llmkit import LLMKit
+from llmkit.transformers import EnumeratedListTransformer
 
 if __name__ == "__main__":
     career = CareerAdvisor(
@@ -15,6 +13,6 @@ if __name__ == "__main__":
     generated_data = app.generate_data(
         input_data=career,
         prompt_transformer=IndustryPromptTransformer(),
-        response_transformer=GeneratedIndustryTransformer(),
+        response_transformer=EnumeratedListTransformer(),
     )
     print(generated_data)

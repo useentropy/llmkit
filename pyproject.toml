@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "llm-stack-kit"
 version = "0.1.1"
-description = "Generate Data from LLM easily using LLMStackKit"
+description = "Generate Data from LLM easily using LLMKit"
 authors = ["Tosin Amuda <tosinamuda@gmail.com>"]
 readme = "README.md"
 packages = [{include = "llmkit"}]
-repository = "https://github.com/useentropy/llm-stack-kit"
+repository = "https://github.com/useentropy/llmkit"
 
 [tool.poetry.dependencies]
 python = "^3.11"

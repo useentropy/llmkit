@@ -1,18 +1,18 @@
-# LLMStackKit - Language Model Kit
+# LLMKit - Language Model Kit
 
-LLMStackKit is a Python package that simplifies the interaction with Language Models (LLMs) and allows you to generate text data with ease.
+LLMKit is a Python package that simplifies the interaction with Language Models (LLMs) and allows you to generate text data with ease.
 
 ## Features
 
-- **Simple Interface**: LLMStackKit provides a straightforward interface to interact with various language models.
+- **Simple Interface**: LLMKit provides a straightforward interface to interact with various language models.
 
 - **Custom Transformers**: You can create custom transformers to format input data into prompts and transform LLM-generated text into the desired data format.
 
-- **Model Abstraction**: LLMStackKit abstracts the details of model selection and provider handling.
+- **Model Abstraction**: LLMKit abstracts the details of model selection and provider handling.
 
 ## Installation
 
-You can install LLMStackKit using pip:
+You can install LLMKit using pip:
 
 ```bash
 pip install llm-stack-kit
@@ -21,7 +21,7 @@ pip install llm-stack-kit
 ## Usage
 
 ```python
-from llm-stack-kit import LLMKit
+from llmkit import LLMKit
 
 llm_kit = LLMKit()
 
@@ -37,7 +37,7 @@ print("Generated Text:", generated_text)
 
 For more advanced usage and customization, you can create your own transformers and specify model providers. Only two model providers are supported for now: "openai" and "cloudflare". You need to provide a .env file with either `OPENAI_API_KEY` for OpenAI or `CF_API_KEY` and `CF_ACCOUNT_ID` for Cloudflare.
 
-See [sample custom transformer](llm-stack-kit/tree/main/examples/transformers.py) for how to write a custom transformer.
+See [sample custom transformer](llmkit/tree/main/examples/transformers.py) for how to write a custom transformer.
 
 ## Documentation
 
@@ -49,7 +49,7 @@ We welcome contributions! Our contributions guideline will be added soon.
 
 ## License
 
-LLMStackKit is distributed under the MIT License. See [LICENCE](llm-stack-kit/tree/main/Licence.md) for details.
+LLMKit is distributed under the MIT License. See [LICENCE](llmkit/tree/main/Licence.md) for details.
 
 ## Contact
 

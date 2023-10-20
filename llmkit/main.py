@@ -9,6 +9,11 @@ from llmkit.transformers import (
 
 
 class LLMKit:
+    """
+    LLMKit class for generating data from LLM using custom transformer
+    to transform your output to desired data structure
+    """
+
     def generate_data(
         self,
         input_data: TPromptInput,
