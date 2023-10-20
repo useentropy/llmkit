@@ -1,21 +1,21 @@
-# LLMKit - Language Model Kit
+# LLMStackKit - Language Model Kit
 
-LLMKit is a Python package that simplifies the interaction with Language Models (LLMs) and allows you to generate text data with ease.
+LLMStackKit is a Python package that simplifies the interaction with Language Models (LLMs) and allows you to generate text data with ease.
 
 ## Features
 
-- **Simple Interface**: LLMKit provides a straightforward interface to interact with various language models.
+- **Simple Interface**: LLMStackKit provides a straightforward interface to interact with various language models.
 
 - **Custom Transformers**: You can create custom transformers to format input data into prompts and transform LLM-generated text into the desired data format.
 
-- **Model Abstraction**: LLMKit abstracts the details of model selection and provider handling.
+- **Model Abstraction**: LLMStackKit abstracts the details of model selection and provider handling.
 
 ## Installation
 
-You can install LLMKit using pip:
+You can install LLMStackKit using pip:
 
 ```bash
-pip install llmkit
+pip install llm-stack-kit
 ```
 
 ## Usage
