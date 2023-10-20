@@ -34,28 +34,23 @@ print("Generated Text:", generated_text)
 ```
 
 ## Configuration
-For more advanced usage and customization, you can create your own transformers and specify model providers. Only two model providers are supported for now: "openai" and "cloudflare". You need to provide a .env file with either ```OPENAI_API_KEY``` for OpenAI or ```CF_API_KEY``` and ```CF_ACCOUNT_ID``` for Cloudflare.
 
-See [sample custom transformer](examples/transformers.py) for how to write a custom transformer.
+For more advanced usage and customization, you can create your own transformers and specify model providers. Only two model providers are supported for now: "openai" and "cloudflare". You need to provide a .env file with either `OPENAI_API_KEY` for OpenAI or `CF_API_KEY` and `CF_ACCOUNT_ID` for Cloudflare.
 
+See [sample custom transformer](llm-kit/tree/main/examples/transformers.py) for how to write a custom transformer.
 
 ## Documentation
+
 Comprehensive documentation will be made available soon.
 
 ## Contributing
+
 We welcome contributions! Please read our [contribution guidelines](CONTRIBUTING.md) to get started.
 
-
 ## License
-LLMKit is distributed under the MIT License. See [LICENCE](Licence.md) for details.
+
+LLMKit is distributed under the MIT License. See [LICENCE](llm-kit/tree/main/Licence.md) for details.
 
 ## Contact
+
 If you have any questions or suggestions, feel free to reach out to us at <a href="mailto:useentropy@gmail.com" target="_new">useentropy@gmail.com</a>.
-
-
-
-
-
-
-
-
