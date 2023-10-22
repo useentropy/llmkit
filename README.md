@@ -37,7 +37,7 @@ print("Generated Text:", generated_text)
 
 For more advanced usage and customization, you can create your own transformers and specify model providers. Only two model providers are supported for now: "openai" and "cloudflare". You need to provide a .env file with either `OPENAI_API_KEY` for OpenAI or `CF_API_KEY` and `CF_ACCOUNT_ID` for Cloudflare.
 
-See [sample custom transformer](llmkit/tree/main/examples/transformers.py) for how to write a custom transformer.
+See [sample custom transformer](/examples/transformers.py) for how to write a custom transformer.
 
 ## Documentation
 
