@@ -37,7 +37,7 @@ print("Generated Text:", generated_text)
 
 For more advanced usage and customization, you can create your own transformers and specify model providers. Only two model providers are supported for now: "openai" and "cloudflare". You need to provide a .env file with either `OPENAI_API_KEY` for OpenAI or `CF_API_KEY` and `CF_ACCOUNT_ID` for Cloudflare.
 
-See [sample custom transformer](/examples/transfomers.p.py) for how to write a custom transformer.
+See [sample custom transformer](/examples/transfomers.py) for how to write a custom transformer.
 
 ## Documentation
 
@@ -49,7 +49,7 @@ We welcome contributions! Our contributions guideline will be added soon.
 
 ## License
 
-LLMKit is distributed under the MIT License. See [LICENCE](Licence.md) for details.
+LLMKit is distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contact
 
